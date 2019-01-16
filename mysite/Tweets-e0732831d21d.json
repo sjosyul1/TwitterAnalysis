@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lithe-realm-202706",
+  "private_key_id": "e0732831d21d161d1057c8200523b820ff486394",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCPHxWU5I4jp7oY\nN4L9nnNLExYJY0Zx6aaSGHY9BZ9dWAVSV311ihXKLjZnTVIC5PpijS5OxIqjnEfa\nqwDuL1+WA4e6K2Jb/RF+4ARqq/aPfAUibKKa3k5vziGO0M07XRWhQfmJf4cCH5TG\ngLH980oE+RfhC10fDf9tF374cZpJ/ykwoBX45oIlpSFmZ4WLn31BfgCgGD+7M2++\nGazL60JbWYZVqtnStipfesrLQJXFcryLBzsuWT4FUfhObcMOqBFO7724oD+X5Mm6\neIeXSq/hhQAHJ9MfuHFntg04ckYHpUerJKwnCYzMdAfD92/zQ9elOdPELOlSxwK/\nE+6pH/8LAgMBAAECggEAK8EJhIThDXZz9n5WDfoYbi2uEX2npiCTu1s+HoavA0br\nDZLQuJPX+IDrQeaJ+XeOMn3N1+fPKJiZAPlBZg/WjZKTtm8X+V5jMGIFB6V90bzN\nBwqmJWlsGlMuwC4GaC0bdTqpsobpu9Ty00K555SuntmWGscyF1Hcsjm6J/L3A8LI\neut9FfC4O4pY99JMmxnkvbnU7NPPi8LIWnlFIULFNsQUEmQisr+ipj5JUK9Q6Yia\n7wwzk4ycn0/T4uXFIpwiC95xVGQPPQKQJlMU3UbdDuddJ9x9wRNq6sNVn9uWcEbL\nZiLSo0td+8qU6qK1rBxCOYceiypo0ft6G05mbf0txQKBgQDFJUda4vjEnAjqUyXB\nXGMxPDodOQjx4ot3CT0MIK5XIn/ZmbtPE5wuJa58N+rabFPM2nesG0X7mtz4qVDs\nUp1sQ6K93knmHGK48K+y//YQ97o5b90LzuB5qGBzwhu/RZfe1jRGpViLGmk9+l04\np1DAUXH4taFUN854b7olizkDTwKBgQC52Qrt/Cpq7CXb1Ik30g6TSNfv6npXYJVd\nw/NEh//X9BKX6FCpR4VMAKVcZQJQWKxk+IO4F8gBVeYiA1mLHrEcrZx4yTRPIcaG\nQGZYyX9u6xB+kzvB4nOnMmW2jcMzOl+Y7TAEhna04E7YDpeJBC4kw+3hTSEQgpWx\nnAB004SJhQKBgQCRn/nXXvVXddL4FDc9X5s90Tk0QN8kna1bXo2jmbhuUOOTvwUn\nYlrpk5gR1dQ7R+2W0oG3teW59yjm3VsTVetG/6cFDWAVBD7AUbnXRU9kNTlwF/t2\nL3iNJR0qJOYOIcAPMLcowBZpmjbHO1sE8EKr7P19M91Zsmdne1BLT03r7QKBgQCf\nZsSUGMv9B2z1XxcOdLGhrEHh+nhSh3m1gcMejZNoE2T7O/wrJTf0Vz19wPk6FsRO\nmkTH2kXmt1l65Oqhg4KfuVzS0Kh4Et0m+weNsc4GQcHU/s2rX2KZDoXlDTRWtQOX\ntCCSUQ5x105ozCM3FwnI6PAYZUIt2gMw4kAV8/HizQKBgBg3kvRVq52pDmuR0tjP\nBzi/0ZXS7erwN3tn7dnsnCDadUcH0R5fFCGwocTIqvVApz6ece7JgdcarN8uHry8\nNa8+/uC89+66edJZGTtGAS3YLkMlk/0Yb6COjykBeW/lPHhnpVy7BbsuIb4TVeHV\nFc7924B/hscoiZ/ACgbixuAL\n-----END PRIVATE KEY-----\n",
+  "client_email": "twitter@lithe-realm-202706.iam.gserviceaccount.com",
+  "client_id": "111988291065511159697",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/twitter%40lithe-realm-202706.iam.gserviceaccount.com"
+}

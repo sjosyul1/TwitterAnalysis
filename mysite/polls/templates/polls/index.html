@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> Home Page</title>
+{% endblock %}
+
+{% block body %}
+	<div class="container" id="header">
+  <div class="page-header">
+    <h1>Welcome to Place Reviews</h1>
+  </div>
+ </div>
+
+    	<div class="wrap" >
+
+
+
+<!--
+            <form class="form-inline"  method="get">
+
+			  <div class="form-group mx-sm-3">
+
+			   <h3> Search for Place Reviews </h3>
+
+				<label  class="sr-only">PLace Name</label>
+				<input type="text" id="name" class="form-control"  placeholder="Place Name">
+			  </div>
+			  <br/>
+			  <br/>
+			  <button type="submit" class="btn btn-primary">Search</button>
+
+			</form>
+-->
+			<form method="post" >
+                {% csrf_token %}
+                   <table border="2" align="center">
+                    {{ form }}
+                  </table>
+                  </br>
+			  <button type="submit">Search</button>
+			</form>
+
+
+<h2 style="text-align: center">Review Pie Chart</h2>
+		<!--	<h2>Welcome {{ request.COOKIES.ManufacturerName }}</h2> From Cookie if needed-->
+		<br/>
+
+      <!-- Content goes here -->
+            {% load chart_tags %}
+            {% chart %}
+                http://chart.apis.google.com/chart
+                       ?chxr=0,0,100
+                       &chxt=x,y
+                       &&chxl=0:|positive|Negative|Neutral
+                       &chbh=a
+                       &chs=480x240
+                       &cht=p
+                       &chco=4D89F9, FF0000, FFFF10
+                       &chds=0,100
+                       &chd=t: 35,40,25
+                       &chtt= Sentimental Analysis(April 2018)
+            {% endchart %}
+
+        </div>
+		<!-- footer-->
+
+	<div class="footer navbar-fixed-bottom">
+	   <div id="footer" class="fixed-bottom">
+      <div class="container">
+	  <br/>
+				<p> Sentimental Anlaysis </p>
+				<p> <a href="http://asu.edu" >ASU website </a> ©All rights reserved. </p>
+      </div>
+    </div>
+</div>
+
+{% endblock %}

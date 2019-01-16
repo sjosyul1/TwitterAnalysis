@@ -1,0 +1,28 @@
+
+
+
+.wrap {
+	text-align: center;
+	margin: auto;
+	max-width: 70%;
+	min-width: 70%;
+
+
+	height: 100%;
+}
+
+#footer {
+ 	background: #6495ED;
+  	margin: auto;
+	text-align:center;
+	width: auto;
+
+}
+
+#header {
+ 	background: #6495ED;
+  	margin: auto;
+	text-align:center;
+	width: auto;
+
+}
